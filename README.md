@@ -26,7 +26,7 @@ In deliverable 1, we performed the ETL process in efforts to create an AWS RDS d
 
 <img width="1141" alt="sparkdf" src="https://user-images.githubusercontent.com/92558842/153975962-608554d5-cb3a-4d8b-8c30-e1de1d52554d.png">
 
-We then began to transform the dataframe into four separate data frames that matched the given schema in pgAdmin. We created the *customers_df* that contained that grouped the customer_id column to create the corresponding customer_count column.  
+We then began to transform the dataframe into four separate data frames that matched the given schema in pgAdmin. We created the *customers_df* that contained the grouped customer_id column to create the corresponding customer_count column.  
 
 <img width="1125" alt="customers_df" src="https://user-images.githubusercontent.com/92558842/153975981-fce4bdba-a121-42cc-acbb-cef32c549206.png">
 
@@ -61,7 +61,7 @@ To complete deliverable 2, I used PySpark and Google Colab to recreate the vine_
 
 <img width="719" alt="filtered_df" src="https://user-images.githubusercontent.com/92558842/153976396-461578c4-350b-44f1-ba19-556fd1eefef9.png">
 
-We further filtered this dataframe by retrieving all the rows where the number of helpful_votes divided by total_votres is equal to or greater than 50%. 
+We further filtered this dataframe by retrieving all the rows where the number of helpful_votes divided by total_voters is equal to or greater than 50%. 
 
 <img width="800" alt="top50" src="https://user-images.githubusercontent.com/92558842/153976421-40f07166-1d2f-48e8-b77e-76b3b8dfaf26.png">
 
